@@ -13,7 +13,6 @@ public class AverageCalculation {
         float avg = sum/len;
         System.out.println(avg);
 
-
     }
 }
 

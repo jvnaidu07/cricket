@@ -2,10 +2,10 @@ package JavaQuestions;
 
 public class JavaSplit {
     public static void main(String[] args) {
-       String a = "w-a-t-e-r";
-       String str[] = a.split("-");
-       for (int i=0; i< str.length; i++){
-           System.out.println(str[i]);
-       }
+        String x = "a/b/c/d";
+        String a[] = x.split("/");
+        for (int i=0; i<a.length; i++){
+            System.out.println(a[i]);
+        }
     }
 }
